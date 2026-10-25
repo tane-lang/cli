@@ -1,0 +1,28 @@
+{
+  "name": "tane-lang",
+  "version": "0.0.0",
+  "description": "Alias for @tane-lang/cli, the command-line tool for the tane-lang project.",
+  "type": "module",
+  "bin": {
+    "tane": "bin/tane.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "dependencies": {
+    "@tane-lang/cli": "0.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tane-lang/cli.git",
+    "directory": "alias"
+  },
+  "homepage": "https://github.com/tane-lang/cli#readme",
+  "bugs": {
+    "url": "https://github.com/tane-lang/cli/issues"
+  },
+  "license": "MIT"
+}

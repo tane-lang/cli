@@ -1,5 +1,5 @@
 {
-  "name": "tane",
+  "name": "@tane-lang/cli",
   "version": "0.0.0",
   "description": "Command-line tool for the tane-lang project. Placeholder; not functional yet.",
   "type": "module",
@@ -14,11 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tane-lang/tane.git"
+    "url": "git+https://github.com/tane-lang/cli.git"
   },
-  "homepage": "https://github.com/tane-lang/tane#readme",
+  "homepage": "https://github.com/tane-lang/cli#readme",
   "bugs": {
-    "url": "https://github.com/tane-lang/tane/issues"
+    "url": "https://github.com/tane-lang/cli/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT"
 }
