@@ -1,0 +1,24 @@
+{
+  "name": "tane",
+  "version": "0.0.0",
+  "description": "Command-line tool for the tane-lang project. Placeholder; not functional yet.",
+  "type": "module",
+  "bin": {
+    "tane": "bin/tane.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tane-lang/tane.git"
+  },
+  "homepage": "https://github.com/tane-lang/tane#readme",
+  "bugs": {
+    "url": "https://github.com/tane-lang/tane/issues"
+  },
+  "license": "MIT"
+}
